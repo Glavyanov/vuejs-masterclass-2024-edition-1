@@ -101,7 +101,7 @@ const createTask = async (formData: CreateNewTask) => {
           type="select"
           name="project_id"
           id="project_id"
-          label="Porject"
+          label="Project"
           placeholder="Select a project"
           :options="selectOptions.projects"
           validation="required"
